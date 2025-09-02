@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RegistrationPage.css">
+    <title>RegistrationPage</title>
+</head>
+<style>
+    table, th, td {
+      border:1px solid black;
+    }
+    td{
+    height: 30px;
+    width: 100px;
+}
+.border{
+    width: 30%;
+    height: 100%;
+    margin-left: 400px;
+}
+    </style>
+<body>
+    <form >
+        
+    <table class="border">
+        <tr>
+            <caption><strong>Registration Form</strong></caption>
+            </tr>
+        <tr>
+            <th colspan="2">Personal Details</th>
+            
+          </tr>
+          <tr>
+            <td>First Name</td>
+            <td><input  name="first_name" type="text" required></td>
+
+          </tr>
+          <tr>
+            <td>Last Name</td>
+            <td><input name="last_name" type="text" required></td>
+
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td><input name="email" type="text" required>
+            </td>
+          </tr>
+          <tr>
+            <td>Phone Number</td>
+            <td><input name="phone number" type="number">
+            </td>
+          </tr>
+    
+        <tr>
+
+            <tr>
+                <th colspan="2">Account Details</th>
+                
+              </tr>
+              <tr>
+                <td>Username</td>
+               <td><input name="username" type="text" required></td>
+    
+              </tr>
+              <tr>
+                <td>Password</td>
+                <td><input name="password" type="password" required>
+                </td>
+    
+              </tr>
+              <tr>
+                <td>Confirm Password</td>
+                <td><input name="confirm password" type="password" required>
+                </td>
+              </tr>
+
+              <tr>
+                <th colspan="2">Address</th>
+                
+              </tr>
+              <tr>
+                <td>Address Line 1</td>
+                <td><input  name="first_name" type="text" required></td>
+    
+              </tr>
+              <tr>
+                <td>Address Line 2</td>
+                <td><input name="last_name" type="text"></td>
+    
+              </tr>
+              <tr>
+                <td>City</td>
+                <td><input name="email" type="text" required>
+                </td>
+              </tr>
+              <tr>
+                <td>State</td>
+                <td><input name="phone number" type="">
+                </td>
+              </tr>
+
+              <tr>
+                <td>ZIP Code</td>
+                <td><input name="zip code" type="number" required>
+                </td>
+              </tr>
+        
+
+              <tr>
+                <th colspan="2">Preferences</th>
+                
+              </tr>
+              <tr>
+                <td>Gender</td>
+                <td><input  name="gender" type="radio">Male
+                    <input  name="gender" type="radio">Female
+                    <input  name="gender" type="radio">Other
+                
+                </td>
+    
+              </tr>
+              <tr>
+                <td>Subscribe Newsletter</td>
+                <td><input name="subscribe_newsletter" type="text"></td>
+    
+              </tr>
+              <tr>
+                <td>Short Bio
+                </td>
+                <td><textarea placeholder="Short Bio" cols="40" rows="4"></textarea>
+                </td>
+              </tr>
+
+              <tr>
+                <th colspan="2"><input type="checkbox" required>I agree to the Terms and Conditions*</th>
+              </tr>
+
+              <tr>
+                <th colspan="2"><button>Register</button><button>Reset</button></th>
+              </tr>
+
+    </table>
+    </form>
+
+    <br>
+    <br>
+
+    <iframe class="border" title="Terms and Conditions" src="iframe.html"></iframe>
+
+    
+</body>
+</html>
