@@ -26,7 +26,7 @@
         
     <table class="border">
         <tr>
-            <caption><strong>Registration Form</strong></caption>
+            <caption><strong><h2>Registration Form</h2></strong></caption>
             </tr>
         <tr>
             <th colspan="2">Personal Details</th>
@@ -39,17 +39,17 @@
           </tr>
           <tr>
             <td>Last Name</td>
-            <td><input name="last_name" type="text" required></td>
+            <td><input  name="last_name" type="text" required></td>
 
           </tr>
           <tr>
             <td>Email:</td>
-            <td><input name="email" type="text" required>
+            <td><input  name="email" type="text" required>
             </td>
           </tr>
           <tr>
             <td>Phone Number</td>
-            <td><input name="phone number" type="number">
+            <td><input  name="phone number" type="number">
             </td>
           </tr>
     
@@ -82,22 +82,32 @@
               </tr>
               <tr>
                 <td>Address Line 1</td>
-                <td><input  name="first_name" type="text" required></td>
+                <td><input  name="address_1" type="text" required></td>
     
               </tr>
               <tr>
                 <td>Address Line 2</td>
-                <td><input name="last_name" type="text"></td>
+                <td><input name="optional_address" type="text"></td>
     
               </tr>
               <tr>
                 <td>City</td>
-                <td><input name="email" type="text" required>
+                <td><input name="city" type="text" required>
                 </td>
               </tr>
               <tr>
                 <td>State</td>
-                <td><input name="phone number" type="">
+                <td>
+    
+        <select id="myOptions">
+            <option value="Goa">Goa</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Punjab">Punjab</option>
+            <option value="UP">U.P.</option>
+            <option value="Assam">Assam</option>
+
+            </select>
                 </td>
               </tr>
 
@@ -129,7 +139,7 @@
               <tr>
                 <td>Short Bio
                 </td>
-                <td><textarea placeholder="Short Bio" cols="40" rows="4"></textarea>
+                <td><textarea placeholder="Tell us about yourself..." cols="40" rows="4"></textarea>
                 </td>
               </tr>
 
